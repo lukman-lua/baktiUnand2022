@@ -16,7 +16,6 @@ use Illuminate\Support\Facades\Route;
 Route::view('', view('welcome'))->name('index');
 Route::view('Peta', view('peta'))->name('peta');
 Route::view('Sambutan', view('sambutan'))->name('sambutan');
-Route::view('Filosofi', view('filosofi'))->name('filosofi');
 Route::view('Merch', view('merch'))->name('merch');
 Route::view('Gallery', view('gallery'))->name('gallery');
 Route::view('Fakultas', view('fakultas'))->name('fakultas');
