@@ -23,7 +23,6 @@ Route::view('Anthem', view('anthem'))->name('anthem');
 Route::view('Ukm', view('ukm'))->name('ukm');
 Route::view('Logo', view('logo'))->name('logo');
 Route::view('Maskot', view('maskot'))->name('maskot');
-Route::view('Countdown', view('countdown'))->name('countdown');
 Route::view('Tugas 1 Pra-Bakti', view('tugas1pra'))->name('tugas1pra');
 Route::view('Tugas 2 Pra-Bakti', view('tugas2pra'))->name('tugas2pra');
 Route::view('Tugas 3 Pra-Bakti', view('tugas3pra'))->name('tugas3pra');
