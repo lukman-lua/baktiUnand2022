@@ -1,0 +1,1057 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Roboto:wght@400;700&display=swap');
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+div {
+    display: block;
+}
+
+
+/* Landing Page */
+
+#landing-page {
+    width: 100%;
+    height: 100vh;
+    background-color: #D5ECC2;
+    overflow: hidden;
+    position: relative;
+    margin-top: -100px;
+}
+
+#nav-page a {
+    font-family: 'Roboto', sans-serif;
+    color: #54744F;
+    font-weight: bolder;
+    z-index: 1;
+}
+
+#nav-page-tugas a {
+    font-family: 'Roboto', sans-serif;
+    color: #54744F;
+    font-weight: bolder;
+    z-index: 1;
+    margin-top: 50px;
+}
+
+#nav-page-tugas a:hover {
+    color: #000;
+    background-color: #91C789;
+    border-radius: 2px;
+}
+
+#nav-page a:hover {
+    color: #FF6A3B;
+}
+
+.uk-navbar-nav li {
+    z-index: 1;
+}
+
+.nav-backs {
+    background-image: linear-gradient(#FEFFDF, #92C889);
+    width: 15%;
+}
+
+.uk-navbar-nav li a:hover {
+    color: #FF6A3B;
+}
+
+.back-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 50px;
+    right: 50px;
+}
+
+.main-img {
+    background-image: url("/image/back.png");
+    height: 100vh;
+    width: 100vw;
+    /* background-attachment: fixed; */
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.first-img {
+    background-image: url("/image/sambutan.png");
+    height: 150vh;
+    width: 100vw;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.second-img {
+    background-image: url("/image/about.png");
+    height: 100vh;
+    width: 100vw;
+    /* background-attachment: fixed; */
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.third-img {
+    background-image: url("/image/timeline.png");
+    height: 150vh;
+    width: 100vw;
+    /* background-attachment: fixed; */
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.third1-img {
+    background-image: url("/image/merch-back.png");
+    height: 300vh;
+    width: 100vw;
+    /* background-attachment: fixed; */
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.fourth-img {
+    background-image: url("/image/sambutan.png");
+    height: 100vh;
+    width: 100vw;
+    /* background-attachment: fixed; */
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.fifth-img {
+    background-image: url("/image/merchandise.png");
+    height: 150vh;
+    width: 100vw;
+    background-color: #d5ded5;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.sixth-img {
+    background-image: url("/image/gallery.png");
+    height: 140vh;
+    width: 100vw;
+    background-color: #d1cacf;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.seventh-img {
+    background-image: url("/image/filosofi.png");
+    height: 100vh;
+    width: 100vw;
+    background-color: #d4e0d4;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.eight-img {
+    background-image: url("/image/fakultas.png");
+    height: 185vh;
+    width: 98, 5vw;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.ninth-img {
+    background-image: url("/image/anthem.png");
+    height: 100vh;
+    width: 100vw;
+    background-color: #d4e0d4;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.tenth-img {
+    background-image: url("/image/maskot.png");
+    height: 270vh;
+    width: 100vw;
+    background-color: #d4e0d4;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.eleventh-img {
+    background-image: url("/image/peta.png");
+    height: 100vh;
+    width: 100vw;
+    background-color: #d6e7cf;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.twelfth-img {
+    background-image: url("/image/tugas.png");
+    height: 250vh;
+    width: 100vw;
+    background-color: #d6e7cf;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.thirteen-img {
+    background-image: url("/image/tugasbakti.png");
+    height: 300vh;
+    width: 100vw;
+    background-color: #d6e7cf;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.img-logo {
+    padding-top: 20px;
+    margin-left: -54px;
+    width: 120px;
+}
+
+.welcome-info {
+    text-align: end;
+}
+
+.welcome-info h1 {
+    margin-top: -230px;
+    font-family: 'Inter', sans-serif;
+    font-size: 160px;
+    color: #54744F;
+}
+
+.welcome-info h2 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    color: #FF6A3B;
+    margin-top: -40px;
+}
+
+.welcome-info h4 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    color: #54744F;
+    margin-top: -20px;
+}
+
+.absen-btn {
+    background-color: #FEFFDF;
+    border-radius: 15px;
+    font-family: 'Inter', sans-serif;
+    color: #54744F;
+    margin-top: 10px;
+}
+
+.chat-btn {
+    background-color: #FEFFDF;
+    border-radius: 15px;
+}
+
+.fa,
+.fa-brands {
+    margin-top: -200px;
+    padding: 10px;
+    font-size: 30px;
+    width: 40px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    color: white;
+}
+
+
+/* Akhir Landing Page */
+
+
+/* About */
+
+#About .aboutImg {
+    width: 350px;
+}
+
+#About h2 {
+    color: #030303;
+    font-family: 'Roboto', sans-serif;
+    font-size: 28px;
+    margin-bottom: 100px;
+}
+
+.slider {
+    margin-top: 150px;
+}
+
+#About .uk-card {
+    background-color: #91C789;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+#About p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    color: white;
+}
+
+#About .uk-card H1 {
+    font-weight: bold;
+    font-size: 60px;
+}
+
+#About .uk-height-medium {
+    height: 200px;
+}
+
+
+/* end About */
+
+
+/* Timeline */
+
+.timelineImg {
+    width: 350px;
+    margin-top: 80px;
+}
+
+.timeline-tree {
+    width: 550px;
+    margin-top: 250px;
+}
+
+
+/* End Timeline */
+
+
+/* Maskot */
+
+#maskot {
+    margin-top: -100px;
+}
+
+.maskot-label {
+    width: 350px;
+    margin-top: 80px;
+}
+
+.maskot-img {
+    width: 450px;
+    margin-top: 10px;
+}
+
+.maskot-slider {
+    margin-top: 100px;
+}
+
+.filosofi {
+    margin-top: 50px;
+}
+
+#maskot .card {
+    background-color: #91C789;
+    border-radius: 20px;
+    margin-top: 20px;
+    width: 10rem;
+}
+
+#maskot .card-title {
+    font-family: 'Inter', sans-serif;
+    color: white;
+    font-size: 29px;
+    font-weight: 800;
+}
+
+
+/* End Maskot */
+
+
+/* Peta */
+
+#peta {
+    margin-top: -100px;
+}
+
+.peta-label {
+    width: 350px;
+    margin-top: 80px;
+}
+
+
+/* end Peta */
+
+
+/* Sambutan */
+
+#sambutan {
+    margin-top: -100px;
+}
+
+.sambutan-label {
+    width: 350px;
+    margin-top: 80px;
+}
+
+#sambutan .card1 {
+    margin-top: 250px;
+    background-color: white;
+}
+
+#sambutan .card2 {
+    margin-top: 250px;
+    background-color: white;
+}
+
+.nama-sambutan {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/* end sambutan  */
+
+
+/* Fakultas dan Jurusan */
+
+#fakultas {
+    margin-top: -200px;
+}
+
+.fakultas-label {
+    width: 350px;
+    margin-top: 80px;
+}
+
+.card-fakultas {
+    margin-top: 250px;
+}
+
+
+/* End Fakultas dan Jurusan */
+
+
+/* UKM */
+
+#ukm {
+    margin-top: -100px;
+}
+
+.ukm-label {
+    width: 350px;
+    margin-top: 80px;
+}
+
+.ukm-pos {
+    margin-top: 200px;
+}
+
+
+/* end UKM */
+
+
+/* Anthem */
+
+#anthem {
+    margin-top: -100px;
+}
+
+.anthem-label {
+    width: 350px;
+    margin-top: 80px;
+}
+
+.anthem-pos {
+    margin-top: 200px;
+}
+
+.anthem-judul h4 {
+    font-size: 26px;
+    margin-top: 10px;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+/* End Anthem */
+
+
+/* Gallery */
+
+#gallery {
+    margin-top: -100px;
+}
+
+.gallery-label {
+    width: 350px;
+    margin-top: 80px;
+}
+
+.gal-pos1 {
+    margin-top: 200px;
+}
+
+.gal-pos2 {
+    margin-top: 240px;
+}
+
+
+/* End Gallery */
+
+
+/* Logo */
+
+#logo {
+    margin-top: -100px;
+}
+
+.logo-label {
+    width: 350px;
+    margin-top: 80px;
+}
+
+.logo-pos {
+    margin-top: 200px;
+}
+
+
+/* End Logo */
+
+
+/* Merch */
+
+#merch {
+    margin-top: -100px;
+}
+
+.merch-label {
+    width: 350px;
+    margin-top: 80px;
+}
+
+.merch-pos {
+    margin-top: 200px;
+}
+
+
+/* .merch-size {
+    width: 220px;
+    margin-left: 20px;
+} */
+
+
+/* end Merch */
+
+
+/* Tugas */
+
+.tugas-label {
+    width: 350px;
+}
+
+.tugas-pos {
+    margin-top: 200px;
+}
+
+#tugas .uk-transition-fade {
+    background-color: #FEFFDF;
+}
+
+#tugas a {
+    font-size: 30px;
+    text-decoration: none;
+    color: black;
+    margin-top: 10px;
+    margin-left: 50px;
+    font-family: 'Roboto', sans-serif;
+}
+
+#tugas hr {
+    color: #000;
+    z-index: 1;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+
+/* End Tugas */
+
+
+/* Challenge */
+
+#challenge {
+    margin-top: -100px;
+}
+
+.challenge-label {
+    width: 350px;
+    margin-top: 80px;
+}
+
+.challenge-card {
+    color: black;
+    border-radius: 40px;
+    margin-top: 150px;
+    border: 5px groove green;
+}
+
+
+/* end Challenge */
+
+
+/* Countdown */
+
+.uk-countdown-number {
+    background-color: #54744F;
+    color: white;
+    font-size: 50px;
+    font-family: 'Inter', sans-serif;
+}
+
+.uk-countdown-label {
+    background-color: #91C789;
+    color: white;
+    border-radius: 10px;
+    font-size: 15px;
+}
+
+.uk-modal-body {
+    border-radius: 10px;
+}
+
+.label p {
+    font-size: 10px;
+    color: white;
+    background-color: #91C789;
+    visibility: hidden;
+}
+
+
+/* End Countdown */
+
+@media (max-width: 1024px) {
+    /* Landing Page */
+    #landing-page {
+        width: 100%;
+        height: 100vh;
+        background-color: #D5ECC2;
+        overflow: hidden;
+        position: relative;
+        margin-top: -100px;
+    }
+    #nav-page-tugas a {
+        font-family: 'Roboto', sans-serif;
+        color: #54744F;
+        font-weight: bolder;
+        z-index: 1;
+        margin-top: 50px;
+        font-size: 10px;
+    }
+    #nav-page-tugas a:hover {
+        color: #000;
+        background-color: #91C789;
+        border-radius: 2px;
+    }
+    #nav-page a {
+        font-family: 'Roboto', sans-serif;
+        color: #54744F;
+        font-weight: bolder;
+        z-index: 1;
+        font-size: 10px;
+    }
+    #nav-page a:hover {
+        color: #FF6A3B;
+    }
+    .uk-navbar-nav li {
+        z-index: 1;
+        font-size: 10px;
+    }
+    .uk-navbar-nav li a:hover {
+        color: #FF6A3B;
+    }
+    .navbar-brand {
+        width: 50px;
+        margin-top: 10px;
+    }
+    .nav-backs {
+        background-image: linear-gradient(#FEFFDF, #92C889);
+        width: 50%;
+    }
+    .welcome-info {
+        text-align: end;
+        margin-top: -220px;
+    }
+    .welcome-info h1 {
+        font-size: 80px;
+        padding-top: -200px;
+        font-family: 'Inter', sans-serif;
+    }
+    .welcome-info h2 {
+        font-family: 'Inter', sans-serif;
+        font-weight: 700;
+        font-size: 20px;
+        color: #FF6A3B;
+        margin-top: -15px;
+    }
+    .welcome-info h4 {
+        font-family: 'Inter', sans-serif;
+        font-weight: 700;
+        font-size: 20px;
+        color: #54744F;
+        margin-top: -10px;
+    }
+    /* Akhir Landing page */
+    /* About */
+    #About .aboutImg {
+        width: 250px;
+    }
+    .about-content {
+        color: #030303;
+        font-family: 'Roboto', sans-serif;
+        font-size: 16px;
+    }
+    #About .slider {
+        margin-top: -150px;
+    }
+    #About .uk-card {
+        background-color: #91C789;
+        border-radius: 20px;
+        padding: 10px;
+        font-family: 'Roboto', sans-serif;
+        font-size: 16px;
+        color: white;
+    }
+    #About .uk-card H1 {
+        font-weight: bold;
+        font-size: 35px;
+    }
+    #About p {
+        font-family: 'Roboto', sans-serif;
+        font-size: 16px;
+        color: white;
+    }
+    #About h2 {
+        color: #030303;
+        font-family: 'Roboto', sans-serif;
+        font-size: 16px;
+        margin-bottom: 100px;
+        padding: 2px;
+    }
+    #About .uk-height-medium {
+        height: 200px;
+    }
+    /* end About */
+    /* Timeline */
+    #Timeline .timelineImg {
+        width: 250px;
+        margin-top: 100px;
+    }
+    #Timeline .timeline-tree {
+        width: 350px;
+        margin-top: 300px;
+    }
+    /* End Timeline */
+    /* Maskot */
+    .maskot-label {
+        width: 250px;
+        margin-top: 70px;
+    }
+    .maskot-img {
+        width: 100px;
+        margin-top: 10px;
+    }
+    .filosofi h5 {
+        font-size: 18px;
+        margin-top: -25px;
+    }
+    .filosofi h6 {
+        font-size: 14px;
+    }
+    #maskot .card {
+        background-color: #91C789;
+        border-radius: 20px;
+        margin-top: -10px;
+        width: 100px;
+        height: 60px;
+    }
+    #maskot .card-title {
+        font-family: 'Inter', sans-serif;
+        color: white;
+        font-size: 18px;
+        font-weight: 800;
+    }
+    /* End Maskot */
+    /* peta */
+    .peta-label {
+        width: 220px;
+        margin-top: 70px;
+        z-index: 1;
+    }
+    #peta .uk-card {
+        margin-top: 15px;
+    }
+    /* end peta */
+    /* Sambutan */
+    .sambutan-label {
+        width: 250px;
+        margin-top: 70px;
+    }
+    #sambutan .card1 {
+        margin-top: 150px;
+        background-color: white;
+    }
+    #sambutan .card2 {
+        margin-top: 100px;
+        background-color: white;
+    }
+    /* sambutan */
+    /* fakultas */
+    .card-fakultas {
+        margin-top: 10px;
+    }
+    /* end fakultas */
+    /* UKM */
+    .ukm-label {
+        width: 250px;
+        margin-top: 80px;
+    }
+    .ukm-pos {
+        margin-top: 250px;
+    }
+    #ukm h3 {
+        font-size: 12px;
+    }
+    /* end UKM */
+    /* Anthem */
+    .anthem-label {
+        width: 250px;
+        margin-top: 80px;
+    }
+    .anthem-pos {
+        margin-top: 200px;
+    }
+    .anthem-judul h4 {
+        font-size: 18px;
+        margin-top: 10px;
+    }
+    /* end Anthem */
+    /* Gallery */
+    .gallery-label {
+        width: 250px;
+        margin-top: 80px;
+    }
+    .gal-pos1 {
+        margin-top: 150px;
+    }
+    .gal-pos2 {
+        margin-top: 70px;
+    }
+    /* end Gallery */
+    /* Logo */
+    .logo-label {
+        width: 250px;
+        margin-top: 80px;
+    }
+    .logo-pos {
+        margin-top: 200px;
+    }
+    .lg-size {
+        width: 150px;
+    }
+    /* End Logo */
+    /* merch */
+    .merch-label {
+        width: 250px;
+        margin-top: 80px;
+    }
+    .merch-pos {
+        margin-top: 200px;
+    }
+    .merch-size {
+        width: 100px;
+    }
+    /* end merch */
+    /* Tugas */
+    .tugas-label {
+        width: 250px;
+        margin-top: -150px;
+    }
+    .tugas-pos {
+        margin-top: 100px;
+    }
+    /* End Tugas */
+    /* Challenge */
+    .challenge-label {
+        width: 200px;
+        margin-top: 80px;
+    }
+    .challenge-card {
+        border-radius: 40px;
+        margin-top: 20px;
+        border: 5px groove green;
+    }
+    .challenge-card h5 {
+        font-size: 20px;
+        margin-top: 8px
+    }
+    .challenge-card p {
+        font-size: 12px;
+    }
+    .challenge-card ol {
+        font-size: 12px;
+    }
+    /* end Challenge */
+    /* countdown */
+    .uk-countdown-number {
+        background-color: #54744F;
+        color: white;
+        font-size: 18px;
+    }
+    .uk-countdown-label {
+        background-color: #91C789;
+        color: white;
+        margin-top: 10px;
+        border-radius: 10px;
+        font-size: 4px;
+        z-index: 1;
+        visibility: hidden;
+    }
+    .label p {
+        font-size: 10px;
+        margin-top: -10px;
+        color: white;
+        background-color: #91C789;
+        border-radius: 4px;
+        visibility: visible !important;
+    }
+    /* end countdown */
+}
+
+@media (max-width: 480px) {
+    #nav-page a {
+        font-family: 'Roboto', sans-serif;
+        color: #54744F;
+        font-weight: bolder;
+        z-index: 1;
+        font-size: 9px;
+    }
+    #nav-page a:hover {
+        color: #FF6A3B;
+    }
+    .uk-navbar-nav li {
+        z-index: 1;
+        font-size: 10px;
+    }
+    .uk-navbar-nav li a:hover {
+        color: #FF6A3B;
+    }
+    .navbar-brand {
+        width: 50px;
+        margin-top: 10px;
+    }
+    .nav-backs {
+        background-image: linear-gradient(#FEFFDF, #92C889);
+        width: 50%;
+    }
+}
+
+@media (max-width: 360px) {
+    #landing-page {
+        width: 100%;
+        height: 100vh;
+        background-color: #D5ECC2;
+        overflow: hidden;
+        position: relative;
+        margin-top: -90px;
+    }
+    #nav-page a {
+        font-family: 'Roboto', sans-serif;
+        color: #54744F;
+        font-weight: bolder;
+        z-index: 1;
+        font-size: 9px;
+    }
+    #nav-page a:hover {
+        color: #FF6A3B;
+    }
+    .uk-navbar-nav li {
+        z-index: 1;
+        font-size: 10px;
+    }
+    .uk-navbar-nav li a:hover {
+        color: #FF6A3B;
+    }
+    .navbar-brand {
+        width: 50px;
+        margin-top: 10px;
+    }
+    .nav-backs {
+        background-image: linear-gradient(#FEFFDF, #92C889);
+        width: 50%;
+    }
+}
+
+@media only screen and (max-device-width: 768px) and (orientation:portrait) {
+    .main-img {
+        background-size: auto 100%;
+        background-position: center center;
+    }
+    .first-img {
+        background-size: auto 100%;
+        background-position: center center;
+    }
+    .second-img {
+        background-size: auto 100%;
+        background-position: center;
+    }
+    .third-img {
+        background-size: auto 100%;
+        background-position: center left;
+    }
+    .third1-img {
+        background-size: auto 100%;
+        background-position: center left;
+    }
+    .fifth-img {
+        background-size: auto 100%;
+        background-position: center left;
+    }
+    .sixth-img {
+        background-size: auto 100%;
+        background-position: center center;
+    }
+    .eight-img {
+        background-size: auto 100%;
+        background-position: left top;
+    }
+    .ninth-img {
+        background-size: auto 100%;
+        background-position: left bottom;
+    }
+    .tenth-img {
+        background-size: auto 100%;
+        background-position: center right;
+    }
+    .eleventh-img {
+        background-size: auto 100%;
+        background-position: center left;
+    }
+    .twelfth-img {
+        background-size: auto 100%;
+        background-position: center center;
+    }
+    .thirteen-img {
+        background-size: auto 100%;
+        background-position: center center;
+    }
+}
