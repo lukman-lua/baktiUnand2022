@@ -4,11 +4,11 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" href="image/logo.png" type="image" sizes="20x20">
+    <link rel="icon" href="{{ url('image/logo.png') }}" type="image" sizes="20x20">
     <title>BAKTI UNAND 2022</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="css/uikit.min.css" />
-    <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="{{ url('css/uikit.min.css') }}" />
+    <link rel="stylesheet" href="{{ url('style/style.css') }}">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap" rel="stylesheet">
@@ -16,8 +16,8 @@
 
 
     <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha384-vk5WoKIaW/vJyUAd9n/wmopsmNhiy+L2Z+SBxGYnUkunIxVxAv/UtMOhba/xskxh" crossorigin="anonymous"></script>
-    <script type="text/javascript" src="js/slides.js"></script>
-    <link rel="stylesheet" type="text/css" href="style/slides.css">
+    <script type="text/javascript" src="{{ url('js/slides.js') }}"></script>
+    <link rel="stylesheet" type="text/css" href="{{ url('style/slides.css') }}">
 
     <style id="compiled-css" type="text/css">
 
@@ -29,8 +29,8 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
-    <script src="js/uikit.min.js"></script>
-    <script src="js/uikit-icons.min.js"></script>
+    <script src="{{ url('js/uikit.min.js') }}"></script>
+    <script src="{{ url('js/uikit-icons.min.js') }}"></script>
 </head>
 
 <body>

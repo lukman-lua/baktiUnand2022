@@ -7,13 +7,13 @@
 
     <div class="col-sm-12">
         <div class="container-fluid">
-            <img class="merch-label uk-position-right" src="image/merch-label.png" alt="">
+            <img class="merch-label uk-position-right" src="{{ url("image/merch-label.png") }}" alt="">
         </div>
     </div>
 
     <div class="container">
         <div class="col-sm-12">
-            <h5 style="padding-top:200px;"><b>Pilihan Paket</h5>
+            <h5 style="padding-top:200px;"><b>Pilihan Paket</b></h5>
             <div class="uk-slider-container-offset" uk-slider>
 
                 <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" style="margin:0 30px">
@@ -22,35 +22,35 @@
                         <li>
                             <div class="uk-card uk-card-default" style="border-radius:20px">
                                 <div class="uk-card-media-top">
-                                    <img class="" src="image/paket1.png" width="350" height="100" style="border-radius:20px" alt="">
+                                    <img class="" src="{{ url("image/paket1.png") }}" width="350" height="100" style="border-radius:20px" alt="">
                                 </div>
                             </div>
                         </li>
                         <li>
                             <div class="uk-card uk-card-default" style="border-radius:20px">
                                 <div class="uk-card-media-top">
-                                    <img src="image/paket2.png" width="350" height="100" style="border-radius:20px" alt="">
+                                    <img src="{{ url("image/paket2.png") }}" width="350" height="100" style="border-radius:20px" alt="">
                                 </div>
                             </div>
                         </li>
                         <li>
                             <div class="uk-card uk-card-default" style="border-radius:20px">
                                 <div class="uk-card-media-top">
-                                    <img src="image/paket3.png" width="350" height="100" style="border-radius:20px" alt="">
+                                    <img src="{{ url("image/paket3.png") }}" width="350" height="100" style="border-radius:20px" alt="">
                                 </div>
                             </div>
                         </li>
                         <li>
                             <div class="uk-card uk-card-default" style="border-radius:20px">
                                 <div class="uk-card-media-top">
-                                    <img src="image/paket4.png" width="350" height="100" style="border-radius:20px" alt="">
+                                    <img src="{{ url("image/paket4.png") }}" width="350" height="100" style="border-radius:20px" alt="">
                                 </div>
                             </div>
                         </li>
                         <li>
                             <div class="uk-card uk-card-default" style="border-radius:20px">
                                 <div class="uk-card-media-top">
-                                    <img src="image/paket5.png" width="350" height="100" style="border-radius:20px" alt="">
+                                    <img src="{{ url("image/paket5.png") }}" width="350" height="100" style="border-radius:20px" alt="">
                                 </div>
                             </div>
                         </li>

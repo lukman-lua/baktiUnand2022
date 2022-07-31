@@ -6,7 +6,7 @@
 
   <div class="col-sm-12">
     <div class="container-fluid">
-      <img class="gallery-label uk-position-right" src="image/gallery-label.png" alt="">
+      <img class="gallery-label uk-position-right" src="{{ url('image/gallery-label.png') }}" alt="">
     </div>
   </div>
 
@@ -17,22 +17,22 @@
           <div class="gal-pos1">
             <div class="uk-flex mt-3">
               <div class="uk-card mt-3 uk-transition-toggle" tabindex="0">
-                <img src="image/cover.png" width="270px" height="160px" alt="">
-                <img class="uk-transition-scale-up uk-position-cover" src="image/peta.png" width="270px" height="160px" alt="">
+                <img src="{{ url('image/cover.png') }}" width="270px" height="160px" alt="">
+                <img class="uk-transition-scale-up uk-position-cover" src="{{ url('image/peta.png') }}" width="270px" height="160px" alt="">
               </div>
               <div class="uk-card mt-3 uk-transition-toggle" tabindex="0" style="margin-left:30px;">
-                <img src="image/cover.png" width="270px" height="160px" alt="">
-                <img class="uk-transition-scale-up uk-position-cover" src="image/peta.png" width="270px" height="160px" alt="">
+                <img src="{{ url('image/cover.png') }}" width="270px" height="160px" alt="">
+                <img class="uk-transition-scale-up uk-position-cover" src="{{ url('image/peta.png') }}" width="270px" height="160px" alt="">
               </div>
             </div>
             <div class="uk-flex mt-3">
               <div class="uk-card mt-3 uk-transition-toggle" tabindex="0">
-                <img src="image/cover.png" width="270px" height="160px" alt="">
-                <img class="uk-transition-scale-up uk-position-cover" src="image/peta.png" width="270px" height="160px" alt="">
+                <img src="{{ url('image/cover.png') }}" width="270px" height="160px" alt="">
+                <img class="uk-transition-scale-up uk-position-cover" src="{{ url('image/peta.png') }}" width="270px" height="160px" alt="">
               </div>
               <div class="uk-card mt-3 uk-transition-toggle" tabindex="0" style="margin-left:30px;">
-                <img src="image/cover.png" width="270px" height="160px" alt="">
-                <img class="uk-transition-scale-up uk-position-cover" src="image/peta.png" width="270px" height="160px" alt="">
+                <img src="{{ url('image/cover.png') }}" width="270px" height="160px" alt="">
+                <img class="uk-transition-scale-up uk-position-cover" src="{{ url('image/peta.png') }}" width="270px" height="160px" alt="">
               </div>
             </div>
           </div>
@@ -45,12 +45,12 @@
           </div>
           <div class="uk-flex">
             <div class="uk-card mt-3 uk-transition-toggle" tabindex="0">
-              <img src="image/cover.png" width="180px" height="80px" alt="">
-              <img class="uk-transition-scale-up uk-position-cover" src="image/peta.png" width="180px" height="80px" alt="">
+              <img src="{{ url('image/cover.png') }}" width="180px" height="80px" alt="">
+              <img class="uk-transition-scale-up uk-position-cover" src="{{ url('image/peta.png') }}" width="180px" height="80px" alt="">
             </div>
             <div class="uk-card mt-3 uk-transition-toggle" tabindex="0" style="margin-left:36px;">
-              <img src="image/cover.png" width="180px" height="80px" alt="">
-              <img class="uk-transition-scale-up uk-position-cover" src="image/peta.png" width="180px" height="80px" alt="">
+              <img src="{{ url('image/cover.png') }}" width="180px" height="80px" alt="">
+              <img class="uk-transition-scale-up uk-position-cover" src="{{ url('image/peta.png') }}" width="180px" height="80px" alt="">
             </div>
           </div>
         </div>

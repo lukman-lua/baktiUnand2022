@@ -6,7 +6,7 @@
 
   <div class="col-sm-12">
     <div class="container-fluid">
-      <img class="sambutan-label uk-position-left" src="image/sambutan-label.png" alt="">
+      <img class="sambutan-label uk-position-left" src="{{ url('image/sambutan-label.png') }}" alt="">
     </div>
   </div>
 

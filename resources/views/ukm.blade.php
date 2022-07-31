@@ -11,7 +11,7 @@
 
     <div class="col-sm-12">
         <div class="container-fluid">
-            <img class="ukm-label uk-position-left" src="image/ukm-label.png" alt="">
+            <img class="ukm-label uk-position-left" src="{{ url('image/ukm-label.png') }}" alt="">
         </div>
     </div>
 

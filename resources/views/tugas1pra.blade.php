@@ -4,7 +4,7 @@
 <section class="thirteen-img" id="challenge" style="background-color: #d6e7cf;">
     <div class="col-sm-12">
         <div class="container-fluid">
-            <img class="challenge-label uk-position-right" src="image/tugas-label.png" alt="">
+            <img class="challenge-label uk-position-right" src="{{ url('image/tugas-label.png') }}" alt="">
         </div>
     </div>
 

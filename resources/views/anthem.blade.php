@@ -5,7 +5,7 @@
 
   <div class="col-sm-12">
     <div class="container-fluid">
-      <img class="anthem-label uk-position-left" src="image/anthem-label.png" alt="">
+      <img class="anthem-label uk-position-left" src="{{ url('image/anthem-label.png') }}" alt="">
     </div>
   </div>
 
