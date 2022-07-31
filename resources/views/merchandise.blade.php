@@ -36,23 +36,24 @@
                     <div class="uk-navbar-right">
 
                         <ul class="uk-navbar-nav">
-                            <li><a href="/">Beranda</a></li>
-                            <li><a href="/logo">Logo</a></li>
-                            <li><a href="/maskot">Maskot</a></li>
-                            <li><a href="/peta">Peta</a></li>
+                            <li><a href="{{ route('index') }}">Beranda</a></li>
+                            <li><a href="{{ route('sambutan') }}">Sambutan</a></li>
+                            <li><a href="{{ route('logo') }}">Logo</a></li>
+                            <li><a href="{{ route('maskot') }}">Maskot</a></li>
+                            <li><a href="{{ route('peta') }}">Peta</a></li>
                         </ul>
 
 
                         <a class="uk-navbar-toggle uk-navbar-toggle-animate" uk-navbar-toggle-icon href="#"></a>
                         <div class="uk-navbar-dropdown nav-backs">
                             <ul class="uk-nav uk-navbar-dropdown-nav">
-                                <li><a href="/sambutan">Sambutan</a></li>
-                                <li><a href="/fakultas">Fakultas dan Jurusan</a></li>
-                                <li><a href="/ukm">Unit Kegiatan Mahasiswa</a></li>
-                                <li><a href="/anthem">Bakti Anthem Player</a></li>
-                                <li><a href="/merch">Merchendise</a></li>
-                                <li><a href="/tugas">Tugas</a></li>
-                                <li><a href="/gallery">Gallery</a></li>
+
+                                <li><a href="{{ route('fakultas') }}">Fakultas dan Jurusan</a></li>
+                                <li><a href="{{ route('ukm') }}">Unit Kegiatan Mahasiswa</a></li>
+                                <li><a href="{{ route('anthem') }}">Bakti Anthem Player</a></li>
+                                <li><a href="{{ route('merch') }}">Merchendise</a></li>
+                                <li><a href="{{ route('tugas') }}">Tugas</a></li>
+                                <li><a href="{{ route('gallery') }}">Gallery</a></li>
                             </ul>
                         </div>
                     </div>

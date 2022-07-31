@@ -241,7 +241,7 @@
                   <div class="uk-inline-clip uk-transition-toggle " tabindex="0">
                     <img src="{{ url("image/pra-bakti.png") }}">
                     <div class="uk-transition-fade uk-position-cover uk-position-large uk-overlay uk-overlay-default">
-                      <a href="/tugas1pra" class="uk-h6 uk-position-center">
+                      <a href="{{ route('tugas1pra') }}" class="uk-h6 uk-position-center">
                         Video Kreatif
                         <hr>
                         Twibbon Contest
@@ -255,7 +255,7 @@
                   <div class="uk-inline-clip uk-transition-toggle" tabindex="0">
                     <img src="{{ url("image/pasca-bakti.png") }}">
                     <div class="uk-transition-fade uk-position-cover uk-position-large uk-overlay uk-overlay-default">
-                      <a href="/tugas1pasca" class="uk-h6 uk-position-center ">
+                      <a href="{{ route('tugas1pasca') }}" class="uk-h6 uk-position-center ">
                         PPT Life Plan
                         <hr>
                         Tugas Besar Maba

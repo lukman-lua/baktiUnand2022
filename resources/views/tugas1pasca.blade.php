@@ -21,8 +21,8 @@
             <nav class="uk-navbar-container uk-navbar-transparent" uk-navbar>
                 <div class="uk-navbar-center">
                     <ul class="uk-navbar-nav">
-                        <li class="uk-active"><a href="/tugas1pasca">PPT Life Plan</a></li>
-                        <li class="uk-active"><a href="/tugas2pasca">Tugas Besar</a></li>
+                        <li class="uk-active"><a href="{{ route('tugas1pasca') }}">PPT Life Plan</a></li>
+                        <li class="uk-active"><a href="{{ route('tugas2pasca') }}">Tugas Besar</a></li>
                     </ul>
                 </div>
             </nav>

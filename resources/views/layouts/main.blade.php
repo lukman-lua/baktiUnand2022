@@ -38,21 +38,21 @@
         <div class="uk-navbar-right">
 
           <ul class="uk-navbar-nav">
-            <li><a href="/">Beranda</a></li>
-            <li><a href="/logo">Logo</a></li>
-            <li><a href="/maskot">Maskot</a></li>
-            <li><a href="/peta">Peta</a></li>
+            <li><a href="{{ route('index') }}">Beranda</a></li>
+            <li><a href="{{ route('sambutan') }}">Sambutan</a></li>
+            <li><a href="{{ route("logo") }}">Logo</a></li>
+            <li><a href="{{ route("maskot") }}">Maskot</a></li>
+            <li><a href="{{ route("peta") }}">Peta</a></li>
           </ul>
 
 
           <a class="uk-navbar-toggle uk-navbar-toggle-animate" uk-navbar-toggle-icon href="#"></a>
           <div class="uk-navbar-dropdown nav-backs">
             <ul class="uk-nav uk-navbar-dropdown-nav">
-              <li><a href="/sambutan">Sambutan</a></li>
               <li><a href="#">Fakultas dan Jurusan</a></li>
               <li><a href="#">Unit Kegiatan Mahasiswa</a></li>
               <li><a href="#">Bakti Anthem Player</a></li>
-              <li><a href="/merch">Merchendise</a></li>
+              <li><a href="{{ route('merch') }}">Merchendise</a></li>
               <li><a href="#">Tugas</a></li>
               <li><a href="#">Gallery</a></li>
 {{--              <a href="#" class="uk-button chat-btn d-flex justify-content-center">Chat</a>--}}

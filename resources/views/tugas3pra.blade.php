@@ -21,9 +21,9 @@
             <nav class="uk-navbar-container uk-navbar-transparent" uk-navbar>
                 <div class="uk-navbar-center">
                     <ul class="uk-navbar-nav">
-                        <li class="uk-active"><a href="/tugas1pra">Keberagaman Budaya</a></li>
-                        <li class="uk-active"><a href="/tugas2pra">Seputar Kampus</a></li>
-                        <li class="uk-active"><a href="/tugas3pra">Twibbion Contest</a></li>
+                        <li class="uk-active"><a href="{{ route('tugas1pra') }}">Keberagaman Budaya</a></li>
+                        <li class="uk-active"><a href="{{ route('tugas2pra') }}">Seputar Kampus</a></li>
+                        <li class="uk-active"><a href="{{ route('tugas3pra') }}">Twibbion Contest</a></li>
                     </ul>
                 </div>
             </nav>
